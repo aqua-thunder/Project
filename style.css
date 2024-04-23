@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.home-page {
+    max-width: 90vw;
+    margin: auto;
+
+}
+
+nav {
+    background-color: #ffffff;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    border-bottom: 2px solid rgb(233, 233, 233);
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+nav .mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 10vw;
+    border: 2px solid rgb(206, 206, 206);
+}
+
+nav .mid .pd {
+    padding: 5px 10px;
+}
+
+nav .mid .line {
+    padding: 0px;
+    width: 1px;
+    background-color: #e1e1e1;
+    height: 28px;
+}
+
+.mid span {
+    font-size: 14px;
+}
+
+.mid svg {
+    background-color: #ff4d6e;
+    border-radius: 30px;
+    padding: 8px;
+    color: white;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right span,
+.svg1 {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.right .svg2 {
+    border: 2px solid rgb(233, 233, 233);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.svg2 svg {
+    height: 28px;
+    padding: 10px;
+}
+
+.svg2 .svg2-1 {
+    height: 18px
+}
+
+.nav {
+    background-color: #ffffff;
+    position: sticky;
+    top: 81px;
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #7f7f7f;
+    font-weight: bold;
+
+}
+
+.nav ul {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+span {
+    cursor: pointer;
+}
+
+ul div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+
+ul img {
+    height: 24px;
+    opacity: 0.5;
+    width: 26px;
+    padding-bottom: 8px;
+}
+
+ul .n-1 {
+    opacity: 1;
+}
+
+ul .d1 {
+    color: black;
+}
+
+
+
+.home {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+.box {
+    margin: 20px 10px;
+}
+
+.home img {
+    object-fit: cover;
+    width: 21vw;
+    height: 42vh;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.box div {
+    font-family: 'Poppins', sans-serif;
+}
+
+.box span {
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+.box .text {
+    padding: 10px 0px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn span {
+    font-family: 'Poppins', sans-serif;
+    padding: 19px;
+    font-size: 18px;
+}
+
+.btn button {
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #222222;
+    color: white;
+}
+
+
+/* Footer*/
+.footer {
+    background-color: #f7f7f7;
+    margin-top: 60px;
+}
+
+.footer .title {
+    padding-top: 7vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+
+}
+
+footer {
+    padding: 0vw 5vw;
+    /* border-bottom: 2px solid #dddddd; */
+}
+
+footer ul {
+    display: flex;
+}
+
+ul li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(166, 166, 166);
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+footer ul li:nth-child(1) {
+    color: black;
+}
+
+.line1 {
+    height: 2px;
+    background-color: #dddddd;
+}
+
+.footer-grid {
+    padding: 0vw 5vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 0fr));
+}
+
+.footer-grid div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 34px;
+    /* padding-right: 20px; */
+}
+
+div .s1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+div .s2 {
+    font-family: 'Lato', sans-serif;
+    color: #7f7f7f;
+    font-size: 13px;
+}
+
+.line2 {
+    height: 2px;
+    margin-top: 3vw;
+    background-color: #dddddd;
+}
+
+.footer-2 {
+    background-color: #f7f7f7;
+    padding: 2vw 5vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(203px, 1fr));
+}
+
+.list1 ul li {
+    padding-top: 0px;
+    font-size: 14px;
+    color: black;
+
+}
+
+.list1 ul li:nth-child(1) {
+    font-weight: bold;
+}
+
+.footer-3 {
+    background-color: #f7f7f7;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0vw 5vw;
+}
+
+.footer-3 ol {
+    display: flex;
+}
+
+.footer-3 ol li {
+    padding: 2vw 1vw 2vw 0vw;
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+    color: #5a5a5a;
+    font-size: 14px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact .svg1 {
+    padding-top: 13px;
+
+}
+
+.contact :nth-child(2) {
+    padding-left: 1px;
+}
+
+.contact span {
+    font-size: 15px;
+    padding: 1vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+@media screen and (min-width:800px) and (max-width:1400px) {
+    .home {
+
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+
+    .home img {
+        width: 28vw;
+
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+    .home {
+        grid-template-columns: 2fr;
+    }
+
+    .home img {
+        width: 86vw;
+
+    }
+
+}
+
+@media screen and (min-width:100px) and (max-width:800px) {
+    nav .left {
+        display: none;
+    }
+
+    nav .mid span {
+        margin: 0px 2vw;
+    }
+
+    .home {
+        grid-template-columns: 2fr;
+    }
+
+    .right,
+    .footer ul {
+        display: flex;
+        display: none;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home img {
+        object-fit: cover;
+        width: 86vw;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .footer-2 {
+        padding: 14vw 5vw 0vw 5vw
+    }
+
+    .footer-2 .list1 {
+        margin-bottom: 45px;
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    }
+
+    .footer-3 {
+        flex-direction: column;
+    }
+
+    .footer-3 ol {
+        justify-content: center;
+    }
+
+    .contact {
+        justify-content: center;
+    }
+
+}
